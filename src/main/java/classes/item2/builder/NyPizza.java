@@ -1,4 +1,4 @@
-package classes.builder;
+package classes.item2.builder;
 
 
 public class NyPizza extends Pizza{
@@ -14,7 +14,7 @@ public class NyPizza extends Pizza{
       this.size = size;
     }
 
-    @Override Pizza build() {
+    @Override public Pizza build() {
       return new NyPizza(this);
     }
 

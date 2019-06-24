@@ -1,4 +1,4 @@
-package classes.builder;
+package classes.item2.builder;
 
 import java.util.EnumSet;
 import java.util.Objects;
@@ -12,7 +12,7 @@ public class Pizza2 {
 
   Set<Pizza.Topping> toppings;
 
-  abstract static class Builder<Y extends Pizza, T extends Builder<Y, T>> {
+  abstract static class Builder<Y extends Pizza2, T extends Builder<Y, T>> {
     EnumSet<Topping> toppings = EnumSet.noneOf(Topping.class);
 
     public T addToppings(Topping topping) {

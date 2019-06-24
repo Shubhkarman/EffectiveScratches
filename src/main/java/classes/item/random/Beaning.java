@@ -1,4 +1,4 @@
-package classes;
+package classes.item.random;
 
 
 import org.springframework.context.ApplicationContext;

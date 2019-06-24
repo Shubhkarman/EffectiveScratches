@@ -1,4 +1,4 @@
-package classes.builder;
+package classes.item2.builder;
 
 public class FrenchPizza extends Pizza {
 

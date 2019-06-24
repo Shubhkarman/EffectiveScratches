@@ -1,4 +1,4 @@
-package classes.builder;
+package classes.item2.builder;
 
 import java.util.EnumSet;
 import java.util.Objects;
